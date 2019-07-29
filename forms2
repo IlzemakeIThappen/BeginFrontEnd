@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+  
+<form action="index.html" method="get">
+  <br>
+  <h1>Sign in:</h1>
+    Username:<br>
+    <input type= "text" required placeholder="ievadi, lūdzu savu vārdu" name="username">
+   <br>
+   <br>
+    Password:<br>
+    <input type= "password" required placeholder="password" name="password">
+     <br>
+     <br>
+     <input type="radio" name="colour">red<br>
+     <input type="radio" name="colour">green<br>
+     <input type="radio" name="colour">blue<br>
+     <br>
+     <br>
+     <input type="checkbox" name="krasa">red<br>
+     <input type="checkbox" name="krasa">green<br>
+     <input type="checkbox" name="krasa">blue<br>
+
+     <input type="color" name="rgb"> Pick a color <br>
+     <input type="date" name="rgb">select a date<br>
+     <input type="submit">
+
+</form>
+
+</body>
+</html>
